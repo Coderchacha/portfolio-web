@@ -1,118 +1,162 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "name": "차예은",
+    "titles": ["프론트엔드 개발자"],
+    "resume": "이력서 보기",
+    "description_header": "안녕하세요, 반갑습니다!",
+    "description": "👋 좀 더 나은 세상을 위한 프로그래밍에 관심이 많은 프론트엔드 개발자 차예은 입니다. Better World를 위한 강력한 도구가 프로그래밍이라고 믿고, 그 도구로써의 프로그래밍에 큰 매력을 느껴 개발을 시작했습니다. 웹 기획 뿐만 아니라, UX에도 관심이 많습니다.",
+    "section_name": {
+      "about": "소개",
+      "projects": "프로젝트",
+      "skills": "기술스택",
+      "experience": "경험"
     },
-    "projects": [
+    "social": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "name": "github",
+        "url": "https://github.com/Coderchacha",
+        "class": "fab fa-github"
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yeeun-cha/",
+        "class": "fab fa-linkedin"
       }
     ],
-    "experience": [
+    "image": "profile.jpeg"
+  },
+  "projects": [
+    {
+      "title": "기업협업",
+      "startDate": "2020",
+      "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+      "images": [
+        "images/portfolio/intern/logo.png",
+        "images/portfolio/intern/board.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    {
+      "title": "CaseT_Fany 케이스티파니 프로젝트",
+      "startDate": "2018",
+      "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+      "images": [
+        "images/portfolio/casetfany/casetfany.png",
+        "images/portfolio/casetfany/review.gif"
+      ],
+      "url": "https://github.com/Coderchacha/23-2nd-caseT-Fany-frontend",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "WeeteWeete 위트위트 프로젝트",
+      "startDate": "2015",
+      "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+      "images": [
+        "images/portfolio/weeteweete/weeteweete1.png",
+        "images/portfolio/weeteweete/weeteweete2.gif"
+      ],
+      "url": "https://github.com/Coderchacha/23-1st-Weeteweete-frontend",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - obecnie",
+      "mainTech": ["Angular 8/9/10"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Stażystka",
+      "years": "01.2018 - 09.2019",
+      "mainTech": ["Angular 7/8"],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "Swagger",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ],
+  "skills": {
+    "icons": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+        "name": "HTML5",
+        "class": "devicon-html5-plain",
+        "level": "95"
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "name": "CSS3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "React.js",
+        "class": "devicon-react-original",
+        "level": "75"
+      },
+      {
+        "name": "Vue.js",
+        "class": "devicon-vuejs-plain",
+        "level": "75"
       }
     ]
   }
+}

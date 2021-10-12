@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -66,12 +65,12 @@ class App extends Component {
 
   loadSharedData() {
     $.ajax({
-      url: `portfolio_shared_data.json`,
+      url: `res_primaryLanguage.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        this.setState({ resumeData: data });
+        document.title = `${this.state.resumeData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -82,7 +81,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header resumeData={this.state.resumeData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -95,7 +94,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-south-korea"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +110,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -119,21 +118,26 @@ class App extends Component {
         </div>
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
+          // sharedBasicInfo={this.state.sharedData.basic_info}
+          sharedBasicInfo={this.state.resumeData.basic_info}
         />
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
-          sharedSkills={this.state.sharedData.skills}
+          // sharedSkills={this.state.sharedData.skills}
+          sharedSkills={this.state.resumeData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        <Footer
+          // sharedBasicInfo={this.state.sharedData.basic_info}
+          sharedBasicInfo={this.state.resumeData.basic_info}
+        />
       </div>
     );
   }

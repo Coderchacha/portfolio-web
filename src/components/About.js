@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 
@@ -13,6 +12,7 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var resume = this.props.resumeBasicInfo.resume;
     }
 
     return (
@@ -29,10 +29,6 @@ class About extends Component {
                     height="250px"
                     src={profilepic}
                     alt="Avatar placeholder"
-                  />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
@@ -81,6 +77,30 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
+                    <br />
+                    <br />
+                    <div>
+                      <a
+                        href="https://energetic-report-a39.notion.site/Ye-Eun-Cha-3fe0e63e78294ef79808eb52d2786fc0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="resumeBtn"
+                        style={{
+                          marginLeft: "200px",
+                          padding: "5px 10px",
+                          border: "1px solid #dddddd",
+                          textDecoration: "none",
+
+                          ":hover": {
+                            color: "#dddddd",
+                          },
+                        }}
+                      >
+                        {resume}
+                      </a>
+                      <br />
+                      <br />
+                    </div>
                   </div>
                 </div>
               </div>
