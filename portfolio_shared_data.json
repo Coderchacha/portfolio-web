@@ -1,0 +1,53 @@
+{
+  "basic_info": {
+    "name": "Ye-Eun, Cha",
+    "titles": ["Front-end Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Coderchacha",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/yeeun-cha/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "profile.jpeg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "React.js",
+        "class": "devicon-react-original",
+        "level": "75"
+      },
+      {
+        "name": "Vue.js",
+        "class": "devicon-vuejs-plain",
+        "level": "75"
+      }
+    ]
+  }
+}
